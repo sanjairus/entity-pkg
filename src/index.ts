@@ -1,2 +1,1 @@
-export * from "@store/store.entity";
-export * from "@store/store.type";
+export * from "@store/store.d";
