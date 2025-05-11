@@ -13,6 +13,7 @@ import {
   ObjectIdColumn,
   UpdateDateColumn,
 } from "typeorm";
+import { Schedule } from "@store/store.type";
 
 //==============================================================================
 
@@ -23,6 +24,9 @@ export class Store {
 
   @Column()
   uid: string;
+
+  @Column()
+  serviceHours: Schedule;
 
   @CreateDateColumn()
   createdAt: Date;
