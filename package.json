@@ -16,8 +16,18 @@
     "typeorm": "^0.3.23"
   },
   "devDependencies": {
-    "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "tscpaths": "^0.0.9"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./store/*.js": "./src/store/*.js"
+  },
+  "typesVersions": {
+    "*": {
+      "store": [
+        "build/store.d.ts"
+      ]
+    }
   }
 }
