@@ -1,8 +1,10 @@
 {
   "name": "@jrssnjn/mongodb-models",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
+    "build": "tsc",
+    "start:dev": "npm run build && node build/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
