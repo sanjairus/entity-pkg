@@ -1,6 +1,6 @@
 {
   "name": "@jrssnjn/mongodb-models",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "build/index.js",
   "scripts": {
     "build": "tsc --project tsconfig.json && tscpaths -p tsconfig.json -s ./src -o ./build",
