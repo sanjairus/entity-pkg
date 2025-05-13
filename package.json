@@ -19,7 +19,6 @@
     "tscpaths": "^0.0.9"
   },
   "exports": {
-    ".": "./build/index.js",
     "./store/type": "./build/store/store.type.js",
     "./store/entity": "./build/store/store.entity.js"
   },
